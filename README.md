@@ -136,10 +136,10 @@ should be comments in the Metadata Guide that
 1. indicate which of your original data files it pertains to.
 1. state what relevant information it contains.
 
-The Metadata Guide as a Markdown document so that it can be rendered 
-properly on GitHub, and any changes can be tracked. It should be named 
-`metadata_guide.md`. This file should be stored in the `metadata` 
-folder.
+The Metadata Guide should be a Markdown document so that it can be 
+rendered properly on GitHub, and any changes can be tracked. It should 
+be named `metadata_guide.md`. This file should be stored in the 
+`metadata` folder.
 
 ##### Supplements
 
@@ -276,7 +276,7 @@ which your analysis will be conducted. We will refer to the final data
 files(s) that you use in your analysis as "your analysis data file(s)". <br><br>
 If you have a single analysis data file - i.e, if all of your analysis 
 will be performed using a single data file created during the 
-processing phase - it should be saved with the name `analysis.Rdata`.  
+processing phase - it should be saved with the name `analysis.Rdata`. 
 If you have more than one analysis data file, give them informative 
 names, such as `analysis_euro.Rdata`, `analysis_afri.Rdata`, and 
 `analysis_asia.Rdata`; or `analysis_individual.Rdata` and 
@@ -286,7 +286,7 @@ folder. <br><br>
 Strictly speaking, including your analysis data file(s) in the 
 documentation is redundant:  anyone interested in your analysis data 
 file(s) files can create them simply by executing the R scripts you 
-wrote for the importing and processing phases of your project.  
+wrote for the importing and processing phases of your project. 
 Nonetheless, the TIER Protocol calls for your analysis data file(s) to 
 be included simply because it is sometimes convenient to have a readily 
 accessible copy of the analysis data.
@@ -314,3 +314,69 @@ One additional script, called `data_appendix.R`, should also be
 included in your `command-files` folder. This script is described in 
 the instructions for your Data Appendix.
 
+#### Analysis Data
+
+This folder should contain:
+
+- Your analysis data file(s) as described in the instructions for your `
+command-files` folder.
+- Your Data Appendix.
+
+
+## The Data Appendix
+
+Your Data Appendix is a document that serves as a codebook for your 
+analysis data file(s).
+
+If the data processing phase of your research generated just one 
+analysis data file, and all the results presented in your paper were 
+derived from that single analysis data file, the Data Appendix should 
+begin with a brief description of the analysis data file.
+
+Typically, this description will say something about the scope of the 
+sample or population the data represent, specify the unit of analysis, 
+and indicate the number of observations. As in the case of the metadata 
+that accompanies your original data files, however, exactly what 
+information is relevant will depend on the nature of the analysis data 
+file, so deciding which aspects you will describe in the Data Appendix 
+will require judgment.
+
+After the brief description of the analysis data file, the Data 
+Appendix should present information about every variable in the 
+analysis data file.The information presented about each variable should 
+include:
+
+- a complete definition of the variable (including coding and/or units 
+of measurement).
+- the name of the original data file(s) from which the variable was 
+extracted or from which the variables used to construct it were 
+extracted.
+- the number of valid observations for the variable, and the number of 
+cases with missing values.
+
+For categorical variables, the information should also include:
+- a frequency table
+- a bar chart showing the proportion of observations in each of the 
+possible categories.
+
+For quantitative variables, the information should also include:
+- basic summary statistics: the mean, standard deviation, minimum, 25th 
+percentile, median, 75th percentile, and maximum.
+- a histogram.
+
+If the results presented in your paper were derived from more than one 
+analysis data file, the Data Appendix should include all of the above 
+information - the brief description of the data file and the 
+information about each of the variables contained in the file - for 
+each of the analysis data files that was used.
+
+The Data Appendix should be a Markdown document so that it can be 
+rendered properly on GitHub, and any changes can be tracked. It should 
+be named `data_appendix.md`. This file should be stored in the 
+`analysis-data` folder.
+
+In addition to the Data Appendix itself, you should also save an R 
+script that generates all the output presented in the Data Appendix. 
+
+This script should be named `data_appendix.R`, and it should be stored 
+in your `command-files` folder.
