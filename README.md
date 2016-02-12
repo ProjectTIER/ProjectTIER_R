@@ -28,7 +28,7 @@ Below we describe how to organize your analysis according to the
 Project TIER protocol, i.e. which components of your analysis should go 
 into which folder.
 
-## Hierarchy and Description of files and folders
+## Hierarchy and description of files and folders
 
 Your repository should have the following hierarchy of files and folders:
 
