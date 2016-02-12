@@ -380,3 +380,25 @@ script that generates all the output presented in the Data Appendix.
 
 This script should be named `data_appendix.R`, and it should be stored 
 in your `command-files` folder.
+
+## README
+
+The `README.md` file gives information about all the other files included in the documentation for your paper. In particular, the 
+`README` file should:
+
+1. state what statistical software or other computer programs are 
+needed to run the command files.
+1. explain the structure of the hierarchy of folders in which the 
+documentation is stored, and briefly describe each of the files 
+included in the documentation.
+1. describe precisely any changes you made to your original data files 
+to create the corresponding versions saved in your `importable-data` 
+folder.
+1. give explicit, step-by-step instructions for using your 
+documentation to replicate the statistical results reported in your 
+paper.
+
+The README should be a Markdown document so that it can be 
+rendered properly on GitHub, and any changes can be tracked. It should 
+be named `README.md`. This file should be stored in the top level of 
+your repository.
