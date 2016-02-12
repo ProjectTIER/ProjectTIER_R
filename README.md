@@ -254,11 +254,11 @@ file in `.csv` format, your script(s) will include a command like
 `read.csv()` that imports the data, and a `save()` command that saves 
 the data in an `.Rdata`-formatted file. (If an importable data file is 
 already in `.Rdata` format, nothing needs to be done to it during the 
-importing phase.) <br> 
+importing phase.) <br><br> 
 At the end of the importing phase, you will have a set of data files, 
 all in R’s `.Rdata` format, containing all the data for your project. 
 These data files will serve as inputs to the processing phase described 
-below. <br>
+below. <br><br>
 When you have completed your paper, these files should not be included 
 in the final documentation. Anyone interested in these files can create 
 them simply by executing the R scripts you wrote for the importing 
