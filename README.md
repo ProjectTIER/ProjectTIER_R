@@ -306,10 +306,10 @@ comment that indicates what piece of output or result the command will
 generate.The following examples illustrate some typical kinds of 
 comments:
 
-    `# The following command produces Table 6.`
-    `# The following command produces Figure 12.`
-    `# The following command calculates the correlation of -0.54` 
-    `# between variables X and Y reported on page 16 of the paper.`
+    # The following command produces Table 6.
+    # The following command produces Figure 12.
+    # The following command calculates the correlation of -0.54
+    # between variables X and Y reported on page 16 of the paper.
 
 All of the scripts for importing, processing and analyzing your data 
 should be included in the `command-files` folder. 
