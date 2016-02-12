@@ -12,8 +12,10 @@ would need to be able to replicate the data processing and analysis you
 conducted for the project and to reproduce exactly all the results 
 reported in your paper.
 
-The instructions presented here are written for users of R.In a few 
-places, they use R-specific terminology. For example, we refer to 
+## ProjectTIER_R repository
+
+The instructions presented in this repository are written for users of R. 
+In a few places, they use R-specific terminology. For example, we refer to 
 command files as scripts, and their names are followed by the .R 
 extension. But the R-specific terminology that appears in these 
 instructions can be easily translated to any of the major statistical 
