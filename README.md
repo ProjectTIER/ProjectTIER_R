@@ -304,7 +304,7 @@ comments:
 
     `# The following command produces Figure 12.`
     
-    `# The following command calculates the correlation of -0.54`
+    `# The following command calculates the correlation of -0.54` <br>
     `# between variables X and Y reported on page 16 of the paper.`
 
 All of the scripts for importing, processing and analyzing your data 
