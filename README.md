@@ -170,7 +170,7 @@ R can open or import.
 
 There are two cases to consider:
 
-1. The original data file is in a format that R can open or import.
+(1) The original data file is in a format that R can open or import.
 
 This case obviously applies if the original data file is in R’s 
 `.Rdata` format.
@@ -192,7 +192,7 @@ in CSV or Excel format, it may be convenient or necessary to modify it
 slightly before using R to import the data it contains. Three examples 
 of cases in which this is true are given below under item (ii).
 
-2. The original data file must be modified before it can be imported 
+(2) The original data file must be modified before it can be imported 
 to R.
 
 In some situations, it may be necessary or convenient to modify an 
