@@ -38,7 +38,7 @@ extracted.
 cases with missing values.
 
 For categorical variables, the information should also include:
-- a frequency table
+- a frequency table.
 - a bar chart showing the proportion of observations in each of the 
 possible categories.
 
