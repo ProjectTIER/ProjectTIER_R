@@ -58,6 +58,8 @@ The top level of your `metadata` folder should contain one document: the Metadat
 
 The `metadata` folder should also contain one sub-folder: the `supplements` folder.
 
+##### Metadata Guide
+
 The **Metadata Guide** is a document that provides information about each of your original data files. For every file in your `original-data` folder, the information in the Metadata Guide should include:
 
 1. A bibliographic citation of the original data file in whatever editorial style (e.g., APA or Chicago) you have chosen to follow throughout your paper.
