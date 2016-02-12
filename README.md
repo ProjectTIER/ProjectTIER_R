@@ -273,19 +273,16 @@ variables or cases, generating new variables, and recoding. At the end
 of the script(s)for the processing phase, there should be `save()`
 commands that save (in `.Rdata` format)the final data file(s) upon 
 which your analysis will be conducted. We will refer to the final data 
-files(s) that you use in your analysis as "your analysis data file(s)".
-
+files(s) that you use in your analysis as "your analysis data file(s)". <br><br>
 If you have a single analysis data file - i.e, if all of your analysis 
 will be performed using a single data file created during the 
 processing phase - it should be saved with the name `analysis.Rdata`.  
 If you have more than one analysis data file, give them informative 
 names, such as `analysis_euro.Rdata`, `analysis_afri.Rdata`, and 
 `analysis_asia.Rdata`; or `analysis_individual.Rdata` and 
-`analysis_household.Rdata`. 
-
+`analysis_household.Rdata`. <br><br>
 Your analysis data file(s) should be stored in your `analysis-data` 
-folder.
-
+folder. <br><br>
 Strictly speaking, including your analysis data file(s) in the 
 documentation is redundant:  anyone interested in your analysis data 
 file(s) files can create them simply by executing the R scripts you 
@@ -296,8 +293,7 @@ accessible copy of the analysis data.
 
 1. The script(s) for the analysis phase should contain commands that 
 open the analysis data file(s) you created in the processing phase, and 
-then generate the results reported in your paper. 
-
+then generate the results reported in your paper. <br><br>
 Every command in your analysis script(s)that generates a piece of 
 output or a result reported in your paper should be preceded by a 
 comment that indicates what piece of output or result the command will 
