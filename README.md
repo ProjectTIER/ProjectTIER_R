@@ -383,7 +383,8 @@ in your `command-files` folder.
 
 ## README
 
-The `README.md` file gives information about all the other files included in the documentation for your paper. In particular, the 
+The `README.md` file gives information about all the other files 
+included in the documentation for your paper. In particular, the 
 `README` file should:
 
 1. state what statistical software or other computer programs are 
