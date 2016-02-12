@@ -298,7 +298,7 @@ Every command in your analysis script(s)that generates a piece of
 output or a result reported in your paper should be preceded by a 
 comment that indicates what piece of output or result the command will 
 generate.The following examples illustrate some typical kinds of 
-comments:
+comments:<br>
 
     # The following command produces Table 6.
 
