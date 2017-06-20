@@ -41,8 +41,7 @@ Your repository should have the following hierarchy of files and folders:
 	+ An `.Rmd` file with all the text and code to produce the final paper
 	+ A knitted HTML or PDF file of the complete paper
 - The `README.md` file for your repository
-- Original Data and Metadata - `original-data-and-metadata`
-    + Original Data - `original-data`
+- Original Data and Metadata - `original-data`
     + Metadata - `metadata`
         - Metadata Guide - `metadata_guide.md`
         - Supplements - `supplements`
