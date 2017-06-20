@@ -8,8 +8,7 @@ command-files` folder.
 
 ## The Data Appendix
 
-Your Data Appendix is a document that serves as a codebook for your 
-analysis data file(s).
+The Data Appendix is a document that serves as a codebook for the analysis data file(s).  It is composed by the author of the paper.
 
 If the data processing phase of your research generated just one 
 analysis data file, and all the results presented in your paper were 
@@ -29,18 +28,13 @@ Appendix should present information about every variable in the
 analysis data file.The information presented about each variable should 
 include:
 
-- a complete definition of the variable (including coding and/or units 
-of measurement).
-- the name of the original data file(s) from which the variable was 
-extracted or from which the variables used to construct it were 
-extracted.
-- the number of valid observations for the variable, and the number of 
-cases with missing values.
+- the name of the variable and a complete definition (including as appropriate, for example, coding and/or units of measurement, the wording of a survey question the variable is based on, or adjustments made for inflation or PPP).
+- the name(s) of the original data file from which the variable was extracted, or from which the variables used to construct it were extracted, and the names of the variables extracted from the original data files.
+- the number of observations with valid values for the variable, and the number of observations with missing values.
 
 For categorical variables, the information should also include:
 - a frequency table.
-- a bar chart showing the proportion of observations in each of the 
-possible categories.
+- a bar chart illustrating the frequency distribution.
 
 For quantitative variables, the information should also include:
 - basic summary statistics: the mean, standard deviation, minimum, 25th 

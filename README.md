@@ -1,4 +1,5 @@
-# The TIER Documentation Protocol v2.0 for R
+# The TIER Documentation Protocol v3.0 for R
+
 
 ## Overview 
 
@@ -25,7 +26,8 @@ languages.
 ## Getting started
 
 To get started you can fork and then clone this repository which will create 
-a copy of the folder structure recommended in the Project TIER protocol.
+a copy of the folder structure recommended in the Project TIER protocol, or click the 
+"Clone or Download" button to download a ZIP file of the structure.
 
 Below we describe how to organize your analysis according to the 
 Project TIER protocol, i.e. which components of your analysis should go 
@@ -35,10 +37,11 @@ into which folder.
 
 Your repository should have the following hierarchy of files and folders:
 
-- An electronic copy of your complete final paper
+- An electronic copy of your complete final paper. Often, this means:
+	+ An `.Rmd` file with all the text and code to produce the final paper
+	+ A knitted HTML or PDF file of the complete paper
 - The `README.md` file for your repository
-- Original Data and Metadata - `original-data-and-metadata`
-    + Original Data - `original-data`
+- Original Data and Metadata - `original-data`
     + Metadata - `metadata`
         - Metadata Guide - `metadata_guide.md`
         - Supplements - `supplements`
