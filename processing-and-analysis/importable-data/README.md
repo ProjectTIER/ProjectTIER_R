@@ -57,7 +57,8 @@ the variable should be stored in a numeric format.
 - If an original data file is formatted for use with a particular type 
 of software other than R (e.g., SPSS, SAS, R or Matlab), it may be 
 necessary to convert the file from its original format to 
-R’s `.Rdata` format using a package like [Stat/Transfer](https://www.stattransfer.com/).
+R’s `.Rdata` format using a package like [Stat/Transfer](https://www.stattransfer.com/), or 
+an R package such as `foreign` or `haven`.
 
 As these examples illustrate, the particular ways in which an original 
 data file needs to be modified will vary depending on the nature of the 
